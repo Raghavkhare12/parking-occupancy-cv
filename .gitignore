@@ -1,0 +1,41 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Processed dataset
+data/processed/
+
+# Raw dataset
+data/raw/
+
+# Temporary files
+data/tmp/
+
+# Model files
+models/*.joblib
+
+# Python distribution/build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
